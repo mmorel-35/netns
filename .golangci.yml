@@ -2,6 +2,6 @@ linters:
   enable:
     - errcheck
     - errorlint
-    - gofmt
+    - gofumpt
 run:
   timeout: 5m
