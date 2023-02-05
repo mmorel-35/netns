@@ -3,6 +3,7 @@ linters:
     - errcheck
     - errorlint
     - gofumpt
+    - megacheck
     - nilerr
     - nolintlint
 run:
