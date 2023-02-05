@@ -5,6 +5,7 @@ linters:
     - exhaustive
     - gofumpt
     - megacheck
+    - nakedret
     - nilerr
     - nolintlint
 run:
