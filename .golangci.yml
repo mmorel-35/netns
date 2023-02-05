@@ -1,2 +1,5 @@
+linters:
+  enable:
+    - errorlint
 run:
   timeout: 5m
