@@ -3,5 +3,6 @@ linters:
     - errcheck
     - errorlint
     - gofumpt
+    - revive
 run:
   timeout: 5m
