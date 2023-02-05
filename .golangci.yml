@@ -1,5 +1,6 @@
 linters:
   enable:
+    - errcheck
     - errorlint
     - gofmt
 run:
