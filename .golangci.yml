@@ -4,6 +4,7 @@ linters:
     - errorlint
     - exhaustive
     - gofumpt
+    - gosimple
     - megacheck
     - nakedret
     - nilerr
