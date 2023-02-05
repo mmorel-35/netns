@@ -3,6 +3,7 @@ linters:
     - errcheck
     - errorlint
     - gofumpt
-    - revive
+    - nilerr
+    - nolintlint
 run:
   timeout: 5m
