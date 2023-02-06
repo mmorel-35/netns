@@ -1,6 +1,5 @@
 //go:build !linux
 // +build !linux
-
 package netns
 
 import "errors"
