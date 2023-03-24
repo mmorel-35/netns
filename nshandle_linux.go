@@ -39,9 +39,9 @@ func (ns NsHandle) String() string {
 	return fmt.Sprintf("NS(%d: %d, %d)", ns, s.Dev, s.Ino)
 }
 
-// UniqueId returns a string which uniquely identifies the namespace
+// UniqueID returns a string which uniquely identifies the namespace
 // associated with the network handle.
-func (ns NsHandle) UniqueId() string {
+func (ns NsHandle) UniqueID() string {
 	if ns == -1 {
 		return "NS(none)"
 	}

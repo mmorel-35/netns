@@ -20,10 +20,10 @@ func (ns NsHandle) String() string {
 	return "NS(none)"
 }
 
-// UniqueId returns a string which uniquely identifies the namespace
+// UniqueID returns a string which uniquely identifies the namespace
 // associated with the network handle. It is only implemented on Linux,
 // and returns "NS(none)" on other platforms.
-func (ns NsHandle) UniqueId() string {
+func (ns NsHandle) UniqueID() string {
 	return "NS(none)"
 }
 

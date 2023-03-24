@@ -15,11 +15,11 @@ var (
 // is not implemented on other platforms.
 //
 // Deprecated: Use golang.org/x/sys/unix.Setns instead.
-func Setns(ns NsHandle, nstype int) (err error) {
+func Setns(_ NsHandle, _ int) (err error) {
 	return ErrNotImplemented
 }
 
-func Set(ns NsHandle) (err error) {
+func Set(_ NsHandle) (err error) {
 	return ErrNotImplemented
 }
 
@@ -27,11 +27,11 @@ func New() (ns NsHandle, err error) {
 	return -1, ErrNotImplemented
 }
 
-func NewNamed(name string) (NsHandle, error) {
+func NewNamed(_ string) (NsHandle, error) {
 	return -1, ErrNotImplemented
 }
 
-func DeleteNamed(name string) error {
+func DeleteNamed(_ string) error {
 	return ErrNotImplemented
 }
 
@@ -39,22 +39,22 @@ func Get() (NsHandle, error) {
 	return -1, ErrNotImplemented
 }
 
-func GetFromPath(path string) (NsHandle, error) {
+func GetFromPath(_ string) (NsHandle, error) {
 	return -1, ErrNotImplemented
 }
 
-func GetFromName(name string) (NsHandle, error) {
+func GetFromName(_ string) (NsHandle, error) {
 	return -1, ErrNotImplemented
 }
 
-func GetFromPid(pid int) (NsHandle, error) {
+func GetFromPid(_ int) (NsHandle, error) {
 	return -1, ErrNotImplemented
 }
 
-func GetFromThread(pid, tid int) (NsHandle, error) {
+func GetFromThread(_ int, _ int) (NsHandle, error) {
 	return -1, ErrNotImplemented
 }
 
-func GetFromDocker(id string) (NsHandle, error) {
+func GetFromDocker(_ string) (NsHandle, error) {
 	return -1, ErrNotImplemented
 }

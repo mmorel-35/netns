@@ -1,8 +1,17 @@
+issues:
+  exclude-rules:
+    - linters:
+        - revive
+      text: "don't use ALL_CAPS in Go names"
+
 linters:
   enable:
+    - errcheck
     - errorlint
     - gci
     - misspell
+    - revive
+    - staticcheck
 
 linters-settings:
   gci:
