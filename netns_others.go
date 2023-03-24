@@ -15,15 +15,15 @@ var (
 // is not implemented on other platforms.
 //
 // Deprecated: Use golang.org/x/sys/unix.Setns instead.
-func Setns(_ NsHandle, _ int) (err error) {
+func Setns(_ NsHandle, _ int) error {
 	return ErrNotImplemented
 }
 
-func Set(_ NsHandle) (err error) {
+func Set(_ NsHandle) error {
 	return ErrNotImplemented
 }
 
-func New() (ns NsHandle, err error) {
+func New() (NsHandle, error) {
 	return -1, ErrNotImplemented
 }
 
