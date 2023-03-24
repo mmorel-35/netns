@@ -1,8 +1,11 @@
 linters:
   enable:
+    - errcheck
     - errorlint
     - gci
     - misspell
+    - revive
+    - staticcheck
 
 linters-settings:
   gci:
