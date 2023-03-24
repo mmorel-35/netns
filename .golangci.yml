@@ -10,6 +10,7 @@ linters:
     - errorlint
     - gci
     - misspell
+    - nonamedreturns
     - revive
     - staticcheck
 
